@@ -1,0 +1,22 @@
+# SECRETS — never commit (repo is public)
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Node / Vite
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Build artifacts / test output
+**/output/
+*.tsbuildinfo
+
+# OS
+.DS_Store
